@@ -1,0 +1,250 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 29,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 521.5211791992188,
+                "Bridge": 579.5052490234375,
+                "Custom": 361.4642639160156,
+                "Flush": 29.0,
+                "Gap infill": 197.93722534179688,
+                "Inner wall": 2272.510009765625,
+                "Internal solid infill": 2089.825927734375,
+                "Outer wall": 969.4000854492188,
+                "Sparse infill": 1881.9427490234375,
+                "Top surface": 642.6105346679688,
+                "Travel": 831.217529296875,
+                "Undefined": 815.62744140625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 118.74200439453125,
+                    "total_used_g": 118.74200439453125
+                }
+            ],
+            "generate_support_material_time": 35,
+            "id": 1,
+            "infill_time": 751,
+            "layer_filament_change": 0,
+            "main_predication": 9958.669921875,
+            "make_perimeters_time": 220,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 103.16639709472656,
+                        "height": 16.600000381469727,
+                        "width": 243.02500915527344,
+                        "x": 6.0,
+                        "y": 17.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Base",
+                    "triangle_count": 4848
+                },
+                {
+                    "bbox": {
+                        "depth": 103.1664047241211,
+                        "height": 11.300000190734863,
+                        "width": 243.02500915527344,
+                        "x": 6.0,
+                        "y": 137.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Cover",
+                    "triangle_count": 3682
+                }
+            ],
+            "sliced_time": 1593,
+            "sliced_time_with_cache": 458,
+            "total_predication": 10362.513671875,
+            "triangle_count": 8530,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 24.501712799072266,
+                "Bridge": 53.44565200805664,
+                "Custom": 361.0081481933594,
+                "Flush": 29.0,
+                "Gap infill": 206.51486206054688,
+                "Inner wall": 1670.7010498046875,
+                "Internal solid infill": 170.62765502929688,
+                "Outer wall": 720.0585327148438,
+                "Overhang wall": 211.7985076904297,
+                "Sparse infill": 208.63323974609375,
+                "Support": 268.3098449707031,
+                "Support interface": 63.66380310058594,
+                "Top surface": 116.13178253173828,
+                "Travel": 860.6751098632813,
+                "Undefined": 845.4828491210938
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFA01",
+                    "id": 1,
+                    "main_used_g": 30.587295532226563,
+                    "total_used_g": 30.587299346923828
+                }
+            ],
+            "generate_support_material_time": 122,
+            "id": 2,
+            "infill_time": 64,
+            "layer_filament_change": 0,
+            "main_predication": 4546.44921875,
+            "make_perimeters_time": 235,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 27.858226776123047,
+                        "height": 7.5,
+                        "width": 18.999988555908203,
+                        "x": 357.20001220703125,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "Finger_Trigger",
+                    "triangle_count": 1380
+                },
+                {
+                    "bbox": {
+                        "depth": 31.199996948242188,
+                        "height": 8.5,
+                        "width": 79.66998291015625,
+                        "x": 389.20001220703125,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "Retrofit_Sear",
+                    "triangle_count": 1248
+                },
+                {
+                    "bbox": {
+                        "depth": 24.209266662597656,
+                        "height": 34.400001525878906,
+                        "width": 37.600013732910156,
+                        "x": 357.1999816894531,
+                        "y": 132.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "Retrofit_Slider",
+                    "triangle_count": 2384
+                },
+                {
+                    "bbox": {
+                        "depth": 29.5,
+                        "height": 20.5,
+                        "width": 36.599979400634766,
+                        "x": 408.20001220703125,
+                        "y": 132.0,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "Front_Anchor",
+                    "triangle_count": 2028
+                },
+                {
+                    "bbox": {
+                        "depth": 10.0,
+                        "height": 12.399999618530273,
+                        "width": 13.999987602233887,
+                        "x": 484.20001220703125,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "id": 29,
+                    "name": "Rear_Key",
+                    "triangle_count": 320
+                },
+                {
+                    "bbox": {
+                        "depth": 10.0,
+                        "height": 12.399999618530273,
+                        "width": 13.999987602233887,
+                        "x": 508.20001220703125,
+                        "y": 88.0,
+                        "z": 0.0
+                    },
+                    "id": 33,
+                    "name": "Grip_Key",
+                    "triangle_count": 320
+                },
+                {
+                    "bbox": {
+                        "depth": 43.0,
+                        "height": 10.0,
+                        "width": 9.999987602233887,
+                        "x": 460.20001220703125,
+                        "y": 128.0,
+                        "z": 0.0
+                    },
+                    "id": 37,
+                    "name": "Front_Lock_Pin_Lower",
+                    "triangle_count": 972
+                },
+                {
+                    "bbox": {
+                        "depth": 22.399993896484375,
+                        "height": 8.0,
+                        "width": 7.999987602233887,
+                        "x": 485.20001220703125,
+                        "y": 127.0,
+                        "z": 0.0
+                    },
+                    "id": 41,
+                    "name": "Rear_Keeper_Pin",
+                    "triangle_count": 940
+                },
+                {
+                    "bbox": {
+                        "depth": 22.399993896484375,
+                        "height": 8.0,
+                        "width": 7.999987602233887,
+                        "x": 509.20001220703125,
+                        "y": 127.0,
+                        "z": 0.0
+                    },
+                    "id": 45,
+                    "name": "Grip_Keeper_Pin",
+                    "triangle_count": 940
+                }
+            ],
+            "sliced_time": 1321,
+            "sliced_time_with_cache": 800,
+            "total_predication": 4950.234375,
+            "triangle_count": 10532,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 45.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 6
+}

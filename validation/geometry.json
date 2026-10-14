@@ -1,0 +1,18 @@
+{
+  "assembly_geometry_exactly_unchanged_from_flush_body": true,
+  "upright_slider_dimensions_mm": [
+    37.6,
+    24.209269999999997,
+    34.4
+  ],
+  "orientation": "front end on bed; axis X vertical; no 45 degree tilt",
+  "geometry": "pass",
+  "export_roundtrip": "pass",
+  "project_counts": [
+    11,
+    1,
+    1
+  ],
+  "motion_checks": "Run verify_motion.py for scoped FCL motion checks.",
+  "physical_strength_and_surface_friction": "unchecked"
+}

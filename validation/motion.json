@@ -1,0 +1,327 @@
+{
+  "evidence_level": "E1 CAD verified with scoped FCL motion evidence; physical performance unverified",
+  "geometry": {
+    "Base": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 56009.072917365644,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Cover": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 46869.514077106374,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Finger_Trigger": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 1636.7984363135413,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Front_Lock_Pin_Lower": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 661.8253225899329,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Front_Anchor": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 8991.899009671608,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Rear_Key": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 981.6141145944408,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Grip_Key": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 981.6141145944433,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Rear_Keeper_Pin": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 207.02524560329888,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Grip_Keeper_Pin": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 207.02524560329826,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Retrofit_Sear": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 4397.645744619576,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    },
+    "Retrofit_Slider": {
+      "watertight": true,
+      "single_connected_body": true,
+      "positive_volume_mm3": 5573.861326937998,
+      "duplicate_faces": 0,
+      "degenerate_faces": 0
+    }
+  },
+  "unchanged_parts": {
+    "Cover": true,
+    "Finger_Trigger": true,
+    "Front_Lock_Pin_Lower": true,
+    "Front_Anchor": true,
+    "Rear_Key": true,
+    "Grip_Key": true,
+    "Rear_Keeper_Pin": true,
+    "Grip_Keeper_Pin": true,
+    "Retrofit_Sear": true,
+    "Retrofit_Slider": true
+  },
+  "tool_versions": {
+    "trimesh": "5.1.1",
+    "manifold3d": "3.5.4",
+    "python-fcl": "0.7.0.11"
+  },
+  "edits": {
+    "posts": [
+      {
+        "xy_mm": [
+          38.6,
+          20.0582256
+        ],
+        "old_end_z_mm": 7.6,
+        "new_end_z_mm": 8.3,
+        "extension_mm": 0.7000000000000011
+      },
+      {
+        "xy_mm": [
+          71.0,
+          25.8297558
+        ],
+        "old_end_z_mm": 7.6,
+        "new_end_z_mm": 8.3,
+        "extension_mm": 0.7000000000000011
+      },
+      {
+        "xy_mm": [
+          104.005704,
+          34.7815628
+        ],
+        "old_end_z_mm": 7.6,
+        "new_end_z_mm": 8.3,
+        "extension_mm": 0.7000000000000011
+      },
+      {
+        "xy_mm": [
+          105.6822,
+          -42.31353
+        ],
+        "old_end_z_mm": 6.3,
+        "new_end_z_mm": 8.3,
+        "extension_mm": 2.000000000000001
+      }
+    ],
+    "underside_wall_thickness_mm": 2,
+    "added_volume_mm3": 374.1996676991111,
+    "only_base_changed": true
+  },
+  "added_material_intersections_mm3": {
+    "Cover": -3.0054253627887634e-15,
+    "Finger_Trigger": 0.0,
+    "Front_Lock_Pin_Lower": 0.0,
+    "Front_Anchor": 0.0,
+    "Rear_Key": 0.0,
+    "Grip_Key": 0.0,
+    "Rear_Keeper_Pin": 0.0,
+    "Grip_Keeper_Pin": 0.0,
+    "Retrofit_Sear": 0.0,
+    "Retrofit_Slider": 0.0
+  },
+  "slider_full_travel_fixed_parts": {
+    "x_range_mm": [
+      -101,
+      105
+    ],
+    "sample_step_max_mm": 0.1,
+    "worst_gap_mm_pair_x": [
+      0.2121327414627404,
+      "Base",
+      -100.9
+    ],
+    "between_sample_bound_mm": 0.05,
+    "assumed_surface_error_mm": 0.1,
+    "remaining_margin_mm": 0.06213274146274039
+  },
+  "release_checks": [
+    {
+      "angle_deg": -5.8,
+      "catch_z_offset_mm": 0,
+      "slider_z_offset_mm": 0,
+      "slider_x_range_mm": [
+        -101,
+        99.534
+      ],
+      "max_sample_step_mm": 0.1,
+      "minimum_slider_catch_gap_mm_x": [
+        0.3161244979870048,
+        96.0351515453639
+      ],
+      "between_sample_bound_mm": 0.05,
+      "assumed_total_clearance_loss_mm": 0.1,
+      "remaining_slider_margin_mm": 0.16612449798700482,
+      "housing_intersection_mm3": 0.0,
+      "note": "Catch collar contact at axial endplay is intended."
+    },
+    {
+      "angle_deg": -5.8,
+      "catch_z_offset_mm": -0.25,
+      "slider_z_offset_mm": 0.3,
+      "slider_x_range_mm": [
+        -101,
+        99.534
+      ],
+      "max_sample_step_mm": 0.1,
+      "minimum_slider_catch_gap_mm_x": [
+        0.25000000000000044,
+        89.73722432701894
+      ],
+      "between_sample_bound_mm": 0.05,
+      "assumed_total_clearance_loss_mm": 0.1,
+      "remaining_slider_margin_mm": 0.10000000000000045,
+      "housing_intersection_mm3": 3.013404413151899e-16,
+      "note": "Catch collar contact at axial endplay is intended."
+    },
+    {
+      "angle_deg": -5.8,
+      "catch_z_offset_mm": 0.25,
+      "slider_z_offset_mm": -0.3,
+      "slider_x_range_mm": [
+        -101,
+        99.534
+      ],
+      "max_sample_step_mm": 0.1,
+      "minimum_slider_catch_gap_mm_x": [
+        0.25000000000000044,
+        89.73722432701894
+      ],
+      "between_sample_bound_mm": 0.05,
+      "assumed_total_clearance_loss_mm": 0.1,
+      "remaining_slider_margin_mm": 0.10000000000000045,
+      "housing_intersection_mm3": 1.30592151675879e-16,
+      "note": "Catch collar contact at axial endplay is intended."
+    }
+  ],
+  "packages": {
+    "Launcher_P1S.3mf": {
+      "mesh_count": 11,
+      "sha256": "92d666006e1ab6ad4c4f08eaf99380650780a32a51c0a31a357a1998472a7976"
+    },
+    "Slider_Only_P1S.3mf": {
+      "mesh_count": 1,
+      "sha256": "37ab764a2843c53ad73e5984efba4542afd4e064f5a22f3fe5ef5e914cd870d5"
+    },
+    "Base_Only_P1S.3mf": {
+      "mesh_count": 1,
+      "sha256": "e8f2907a6d61043c8a5cd318233225dd5c55ff473149fec568adb7596ab2de13"
+    },
+    "parts/Retrofit_Sear.3mf": {
+      "mesh_count": 1,
+      "sha256": "9d783f8c875523b2bbba7ae4d80bf1aba230737efdb6adfe2a308f7c41d7e7a9"
+    },
+    "parts/Front_Anchor.3mf": {
+      "mesh_count": 1,
+      "sha256": "a91cf1e98a793907bb5e372eacff46d19493f40a900e9221b618d125c7031b02"
+    },
+    "parts/Retrofit_Slider.3mf": {
+      "mesh_count": 1,
+      "sha256": "20f14773d46d15431dfa15a0a451898750f8268e3c4700b8b20d4ac5eb853327"
+    },
+    "parts/Cover.3mf": {
+      "mesh_count": 1,
+      "sha256": "66af9cdf924106a7d7a3c4655d9ab4ed5b18db4d0fa6cb6a3fee8452f5c7ad6b"
+    },
+    "parts/Finger_Trigger.3mf": {
+      "mesh_count": 1,
+      "sha256": "cb050b23575caefa01c94d7554aed0acfdb5ebf3916a72bf9e70de8dfc02d008"
+    },
+    "parts/Grip_Key.3mf": {
+      "mesh_count": 1,
+      "sha256": "081a3773a65dde6b525fc51b15267abd718598ea558a7ce0a11ae6ad11ea0f44"
+    },
+    "parts/Base.3mf": {
+      "mesh_count": 1,
+      "sha256": "265483f172e323ca4920bcf20a471fd4d5d5534b1619e0d1113b8dc8b5b76e5c"
+    },
+    "parts/Front_Lock_Pin_Lower.3mf": {
+      "mesh_count": 1,
+      "sha256": "9d98522a0ef80233cc61ec956c19eab27091331aad4a560ed268ddb73f296e1a"
+    },
+    "parts/Rear_Keeper_Pin.3mf": {
+      "mesh_count": 1,
+      "sha256": "03658a75f4cf3a88a61fc8ab33390df01434bb0d5f246f4194287e8def5d8339"
+    },
+    "parts/Rear_Key.3mf": {
+      "mesh_count": 1,
+      "sha256": "8c2b40a2d7bc2715ed2f5ade42077a3a134ed58640f0dfe1d9b90620c6ba7bba"
+    },
+    "parts/Grip_Keeper_Pin.3mf": {
+      "mesh_count": 1,
+      "sha256": "861b3bf1e9c8f44ecd00a76730d2adfc4c7a4f2ec821f00132e6e8743d99a252"
+    }
+  },
+  "excluded_roundtrip_sliver_volume_mm3": 0.0018999834518518585,
+  "moving_parts_vs_added_material": [
+    {
+      "part": "Finger_Trigger",
+      "angle_range_deg": [
+        -20,
+        60
+      ],
+      "sample_step_deg": 0.1,
+      "worst_gap_mm_angle": [
+        3.857966710693572,
+        -19.7
+      ],
+      "between_sample_bound_mm": 0.0238397420615782,
+      "assumed_clearance_loss_mm": 0.1,
+      "remaining_margin_mm": 3.734126968631994
+    },
+    {
+      "part": "Retrofit_Sear",
+      "angle_range_deg": [
+        -15,
+        10
+      ],
+      "sample_step_deg": 0.1,
+      "worst_gap_mm_angle": [
+        3.3584189066355288,
+        0.40000000000000036
+      ],
+      "between_sample_bound_mm": 0.05401291284144023,
+      "assumed_clearance_loss_mm": 0.1,
+      "remaining_margin_mm": 3.2044059937940883
+    }
+  ],
+  "gates": {
+    "geometry": "pass",
+    "fixed_part_travel": "pass",
+    "release_clearance": "pass",
+    "printed_strength_and_fatigue": "unchecked",
+    "physical_function": "unchecked",
+    "full_grip_envelope": "unchecked"
+  }
+}

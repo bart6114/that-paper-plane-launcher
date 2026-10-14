@@ -1,0 +1,17 @@
+{
+  "wall_loops": "6",
+  "sparse_infill_density": "45%",
+  "sparse_infill_pattern": "gyroid",
+  "top_shell_layers": "6",
+  "bottom_shell_layers": "6",
+  "enable_support": "1",
+  "support_type": "tree(auto)",
+  "max_bridge_length": "6",
+  "bridge_no_support": "0",
+  "support_on_build_plate_only": "0",
+  "brim_type": "no_brim",
+  "layer_height": "0.2",
+  "initial_layer_print_height": "0.2",
+  "print_settings_id": "Low support \u2014 P1S 0.4, PLA, 0.20 mm",
+  "printer_settings_id": "Bambu Lab P1S 0.4 nozzle"
+}

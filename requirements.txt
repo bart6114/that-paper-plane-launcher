@@ -1,0 +1,7 @@
+numpy==2.5.3
+trimesh==5.1.1
+manifold3d==3.5.4
+python-fcl==0.7.0.11
+rtree==1.4.1
+scipy==1.18.1
+shapely==2.2.0

@@ -1,0 +1,92 @@
+{
+  "parts": {
+    "Base": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 56009.07291736565,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Cover": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 46869.51407710637,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Finger_Trigger": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 1636.7984363135413,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Front_Lock_Pin_Lower": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 661.825322589934,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Front_Anchor": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 8991.899009671602,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Rear_Key": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 981.6141145944403,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Grip_Key": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 981.6141145944403,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Rear_Keeper_Pin": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 207.02524560329832,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Grip_Keeper_Pin": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 207.0252456032982,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Retrofit_Sear": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 4397.645744619578,
+      "connected_bodies": 1,
+      "orientation": "previous orientation"
+    },
+    "Retrofit_Slider": {
+      "rigid_transform_only": true,
+      "watertight": true,
+      "positive_volume_mm3": 5573.861326937997,
+      "connected_bodies": 1,
+      "orientation": "Upright, flat front end down; print layer normal is assembly X"
+    }
+  },
+  "project_object_counts": [
+    11,
+    1,
+    1
+  ],
+  "minimum_xy_bounding_box_gap_mm": 8,
+  "bed_bounds_mm": [
+    0,
+    256
+  ],
+  "geometry_changed": "No assembly shape changes; slider upright instead of 45 degree tilt"
+}
