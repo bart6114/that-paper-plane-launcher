@@ -81,6 +81,15 @@
   "project_object_counts": [
     11,
     1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
     1
   ],
   "minimum_xy_bounding_box_gap_mm": 8,
@@ -88,5 +97,5 @@
     0,
     256
   ],
-  "geometry_changed": "No assembly shape changes; slider upright instead of 45 degree tilt"
+  "geometry_changed": "No assembly shape changes; complete individual-part print set"
 }

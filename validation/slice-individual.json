@@ -1,0 +1,397 @@
+{
+  "slicer": "BambuStudio 02.08.02.61",
+  "printer": "P1S 0.4 mm",
+  "layer_height_mm": 0.2,
+  "files": {
+    "Base_P1S.3mf": {
+      "sha256": "858d1356a3e45f3d46ab055c5df8d5e08dd775f4cac977930bbd8eef6ff17037",
+      "minutes": 98.385107421875,
+      "grams": 64.92980194091797,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 103.16639709472656,
+            "height": 16.600000381469727,
+            "width": 243.02499389648438,
+            "x": 6.48750114440918,
+            "y": 76.41680908203125,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Base",
+          "triangle_count": 4848
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 269.2375793457031,
+        "Bridge": 298.4248352050781,
+        "Custom": 361.1818542480469,
+        "Flush": 29.0,
+        "Gap infill": 146.64230346679688,
+        "Inner wall": 1286.775634765625,
+        "Internal solid infill": 1066.57080078125,
+        "Outer wall": 624.523193359375,
+        "Sparse infill": 994.8045043945312,
+        "Top surface": 340.063232421875,
+        "Travel": 500.0715637207031,
+        "Undefined": 484.7012634277344
+      }
+    },
+    "Cover_P1S.3mf": {
+      "sha256": "70c79ed8c5e5de0de9992b76ff72cad8ce0e9bf9e24c339107504313a50f9276",
+      "minutes": 81.22147623697917,
+      "grams": 53.91132354736328,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 103.16639709472656,
+            "height": 11.300000190734863,
+            "width": 243.02499389648438,
+            "x": 6.48750114440918,
+            "y": 76.41680908203125,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Cover",
+          "triangle_count": 3682
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 252.28826904296875,
+        "Bridge": 281.1695861816406,
+        "Custom": 361.6226806640625,
+        "Flush": 29.0,
+        "Gap infill": 57.54745864868164,
+        "Inner wall": 990.5012817382812,
+        "Internal solid infill": 1023.5699462890625,
+        "Outer wall": 362.8984069824219,
+        "Sparse infill": 887.6533203125,
+        "Top surface": 302.61077880859375,
+        "Travel": 339.76702880859375,
+        "Undefined": 323.93804931640625
+      }
+    },
+    "Finger_Trigger_P1S.3mf": {
+      "sha256": "69ef5014bababd220b865f33fec18fe4e34db510e4e83b057f710d08b2ddc882",
+      "minutes": 11.438205973307292,
+      "grams": 2.0521440505981445,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 27.858226776123047,
+            "height": 7.5,
+            "width": 19.0,
+            "x": 118.5,
+            "y": 114.07087707519531,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Finger_Trigger",
+          "triangle_count": 1380
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 2.5399370193481445,
+        "Bridge": 1.7653203010559082,
+        "Custom": 361.0376892089844,
+        "Flush": 29.0,
+        "Gap infill": 29.622867584228516,
+        "Inner wall": 106.34626770019531,
+        "Internal solid infill": 9.44890308380127,
+        "Outer wall": 43.213096618652344,
+        "Sparse infill": 21.24599838256836,
+        "Top surface": 8.088836669921875,
+        "Travel": 89.25550842285156,
+        "Undefined": 73.98696899414062
+      }
+    },
+    "Front_Anchor_P1S.3mf": {
+      "sha256": "7ba7fd9efa15269a2c39d64bef7f0b510ca4e879b292e7e11df6d16df6060f2b",
+      "minutes": 30.13267822265625,
+      "grams": 10.896989822387695,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 29.5,
+            "height": 20.5,
+            "width": 36.59999465942383,
+            "x": 109.70001220703125,
+            "y": 113.25,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Front_Anchor",
+          "triangle_count": 2028
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 15.816045761108398,
+        "Bridge": 27.244916915893555,
+        "Custom": 361.0589904785156,
+        "Flush": 29.0,
+        "Gap infill": 66.1596908569336,
+        "Inner wall": 580.5941162109375,
+        "Internal solid infill": 89.55339050292969,
+        "Outer wall": 215.87718200683594,
+        "Overhang wall": 4.382822036743164,
+        "Sparse infill": 117.64813232421875,
+        "Top surface": 35.58662796020508,
+        "Travel": 280.3707580566406,
+        "Undefined": 265.0671691894531
+      }
+    },
+    "Front_Lock_Pin_Lower_P1S.3mf": {
+      "sha256": "627037eec639c0eec8d1806754e1d1ee219c9dfb653b463fb4ce4662272ff43d",
+      "minutes": 11.09947001139323,
+      "grams": 1.3619880676269531,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 43.0,
+            "height": 10.0,
+            "width": 10.0,
+            "x": 123.0,
+            "y": 106.5,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Front_Lock_Pin_Lower",
+          "triangle_count": 972
+        }
+      ],
+      "feature_type_times": {
+        "Custom": 360.9762268066406,
+        "Flush": 29.0,
+        "Gap infill": 19.998958587646484,
+        "Inner wall": 61.100006103515625,
+        "Internal solid infill": 0.08604467660188675,
+        "Outer wall": 59.46812057495117,
+        "Overhang wall": 9.162620544433594,
+        "Support": 73.5687255859375,
+        "Support interface": 4.042723178863525,
+        "Top surface": 2.733769416809082,
+        "Travel": 61.081974029541016,
+        "Undefined": 45.83430862426758
+      }
+    },
+    "Grip_Keeper_Pin_P1S.3mf": {
+      "sha256": "cad12ab0e191ac86a86a16cdac15ddf0642febc984c58fdf01007fb47d44d444",
+      "minutes": 9.257353719075521,
+      "grams": 0.5614368319511414,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 22.399993896484375,
+            "height": 8.0,
+            "width": 8.0,
+            "x": 124.0,
+            "y": 116.80000305175781,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Grip_Keeper_Pin",
+          "triangle_count": 940
+        }
+      ],
+      "feature_type_times": {
+        "Custom": 361.0326843261719,
+        "Flush": 29.0,
+        "Gap infill": 6.32646369934082,
+        "Inner wall": 41.53730010986328,
+        "Internal solid infill": 0.9828418493270874,
+        "Outer wall": 53.29157638549805,
+        "Overhang wall": 2.679112434387207,
+        "Support": 40.51474380493164,
+        "Support interface": 0.7345768809318542,
+        "Top surface": 0.21767395734786987,
+        "Travel": 34.4137077331543,
+        "Undefined": 19.124727249145508
+      }
+    },
+    "Grip_Key_P1S.3mf": {
+      "sha256": "bdc5a5cc791965e59763c1ef00f240dfae24030fc05b87b3ca506e4f5f7886a8",
+      "minutes": 11.607752482096354,
+      "grams": 1.3288084268569946,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 10.0,
+            "height": 12.399999618530273,
+            "width": 14.0,
+            "x": 121.0,
+            "y": 123.0,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Grip_Key",
+          "triangle_count": 320
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 3.0729293823242188,
+        "Bridge": 2.955580711364746,
+        "Custom": 361.0799255371094,
+        "Flush": 29.0,
+        "Gap infill": 1.7601673603057861,
+        "Inner wall": 159.47776794433594,
+        "Internal solid infill": 13.83603286743164,
+        "Outer wall": 71.15495300292969,
+        "Overhang wall": 3.3625869750976562,
+        "Sparse infill": 3.1930415630340576,
+        "Top surface": 8.84567928314209,
+        "Travel": 54.04389953613281,
+        "Undefined": 38.73383331298828
+      }
+    },
+    "Rear_Keeper_Pin_P1S.3mf": {
+      "sha256": "940e5dc7079cd89dc330f0564d64473f0835fe2ec581490f7f5876b65b5a0a29",
+      "minutes": 9.257353719075521,
+      "grams": 0.5614368319511414,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 22.399993896484375,
+            "height": 8.0,
+            "width": 8.0,
+            "x": 124.0,
+            "y": 116.80000305175781,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Rear_Keeper_Pin",
+          "triangle_count": 940
+        }
+      ],
+      "feature_type_times": {
+        "Custom": 361.0326843261719,
+        "Flush": 29.0,
+        "Gap infill": 6.32646369934082,
+        "Inner wall": 41.53730010986328,
+        "Internal solid infill": 0.9828418493270874,
+        "Outer wall": 53.29157638549805,
+        "Overhang wall": 2.679112434387207,
+        "Support": 40.51474380493164,
+        "Support interface": 0.7345768809318542,
+        "Top surface": 0.21767395734786987,
+        "Travel": 34.4137077331543,
+        "Undefined": 19.124727249145508
+      }
+    },
+    "Rear_Key_P1S.3mf": {
+      "sha256": "c8c7d4fbcc12f1b091027218505dd65d8acfe1fa48f439e49122e16c3cc13720",
+      "minutes": 11.607752482096354,
+      "grams": 1.3288084268569946,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 10.0,
+            "height": 12.399999618530273,
+            "width": 14.0,
+            "x": 121.0,
+            "y": 123.0,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Rear_Key",
+          "triangle_count": 320
+        }
+      ],
+      "feature_type_times": {
+        "Bottom surface": 3.0729293823242188,
+        "Bridge": 2.955580711364746,
+        "Custom": 361.0799255371094,
+        "Flush": 29.0,
+        "Gap infill": 1.7601673603057861,
+        "Inner wall": 159.47776794433594,
+        "Internal solid infill": 13.83603286743164,
+        "Outer wall": 71.15495300292969,
+        "Overhang wall": 3.3625869750976562,
+        "Sparse infill": 3.1930415630340576,
+        "Top surface": 8.84567928314209,
+        "Travel": 54.04389953613281,
+        "Undefined": 38.73383331298828
+      }
+    },
+    "Retrofit_Sear_P1S.3mf": {
+      "sha256": "c5e3e492a5e82cdcb2aeab6320dca23a50d8b2563f9a0d55121e922701247d88",
+      "minutes": 20.59382527669271,
+      "grams": 5.689608097076416,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 31.200000762939453,
+            "height": 8.5,
+            "width": 79.66999816894531,
+            "x": 88.16500854492188,
+            "y": 112.40000915527344,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Retrofit_Sear",
+          "triangle_count": 1248
+        }
+      ],
+      "feature_type_times": {
+        "Bridge": 18.52539825439453,
+        "Custom": 361.0746154785156,
+        "Flush": 29.0,
+        "Gap infill": 24.620033264160156,
+        "Inner wall": 251.1610870361328,
+        "Internal solid infill": 51.95846939086914,
+        "Outer wall": 89.76759338378906,
+        "Overhang wall": 116.80421447753906,
+        "Sparse infill": 63.450050354003906,
+        "Support": 46.81989669799805,
+        "Support interface": 40.5845947265625,
+        "Top surface": 27.85260009765625,
+        "Travel": 129.38099670410156,
+        "Undefined": 114.0133285522461
+      }
+    },
+    "Retrofit_Slider_P1S.3mf": {
+      "sha256": "c2ba5348044863f34fdef7d4719f222c78d4d09b1737235afd6d6b65de8dd0d2",
+      "minutes": 27.541072591145834,
+      "grams": 7.607155799865723,
+      "warnings": "",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 24.209270477294922,
+            "height": 34.400001525878906,
+            "width": 37.600006103515625,
+            "x": 109.19999694824219,
+            "y": 115.89535522460938,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "Retrofit_Slider",
+          "triangle_count": 2384
+        }
+      ],
+      "feature_type_times": {
+        "Custom": 361.0770568847656,
+        "Flush": 29.0,
+        "Gap infill": 70.6302261352539,
+        "Inner wall": 584.9984130859375,
+        "Internal solid infill": 0.45089372992515564,
+        "Outer wall": 227.3784637451172,
+        "Overhang wall": 69.8609390258789,
+        "Support": 72.89971923828125,
+        "Support interface": 17.677183151245117,
+        "Top surface": 25.585758209228516,
+        "Travel": 208.2631378173828,
+        "Undefined": 192.90675354003906
+      }
+    }
+  }
+}

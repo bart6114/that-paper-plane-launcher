@@ -1,22 +1,34 @@
 # That Paper Plane Launcher
 
-An elastic-powered, printed paper-plane launcher, developed for a **Bambu Lab P1S with a 0.4 mm nozzle**, using **PLA or PLA Matte** and elastic bands. No metal fasteners are required.
+An elastic-powered, printed paper-plane launcher for a **Bambu Lab P1S with a 0.4 mm nozzle**, using **PLA or PLA Matte** and elastic bands. All fasteners are printed.
 
-## Print files
+## Print the launcher
 
-- [Complete two-plate project](print/Launcher_P1S.3mf)
-- [Slider only](print/Slider_Only_P1S.3mf)
-- [Base only](print/Base_Only_P1S.3mf)
+**[Download the complete launcher](print/Launcher_P1S.3mf)** — all eleven parts arranged on two plates.
 
-Open these in Bambu Studio, select the actual filament, and slice. They contain models and saved print settings, not printer-ready G-code.
+To print a single component, choose any part below. Each download is a Bambu Studio project with the same orientation and settings used in the complete launcher. A complete launcher uses one of each.
 
-The current revision has a reinforced slider **standing upright on its flat end, without a 45° tilt**; no underside slider guide; flush body connection posts; a closed underside opening; and the existing reinforced front anchor and printed retaining keys/pins. The slider keeps ten walls and a removable brim. The body halves lie exterior-face down.
+| Individual part | Function |
+| --- | --- |
+| [Base](print/parts/Base_P1S.3mf) | Body half with the integral connection posts |
+| [Cover](print/parts/Cover_P1S.3mf) | Other body half |
+| [Trigger](print/parts/Finger_Trigger_P1S.3mf) | Trigger |
+| [Catch](print/parts/Retrofit_Sear_P1S.3mf) | Catch |
+| [Slider](print/parts/Retrofit_Slider_P1S.3mf) | Slider |
+| [Front band holder](print/parts/Front_Anchor_P1S.3mf) | Front elastic-band holder |
+| [Rear key](print/parts/Rear_Key_P1S.3mf) | Rear joining key |
+| [Grip key](print/parts/Grip_Key_P1S.3mf) | Grip joining key |
+| [Front pin](print/parts/Front_Lock_Pin_Lower_P1S.3mf) | Front retaining pin |
+| [Rear pin](print/parts/Rear_Keeper_Pin_P1S.3mf) | Rear retaining pin |
+| [Grip pin](print/parts/Grip_Keeper_Pin_P1S.3mf) | Grip retaining pin |
 
-This remains a prototype. Geometry, scoped motion clearances, and slicing have been checked digitally; printed strength, fatigue, surface friction, and complete hand clearance have not been validated. Earlier prints suffered slider breakage and guide friction. See [validation](docs/validation.md) and [print/assembly notes](docs/printing.md).
+Open the project in Bambu Studio, select your filament, and slice. The slider stands upright on its flat end; the body halves lie exterior-face down. The current model includes the reinforced slider without an underside guide, flush body connection posts, and the closed underside opening.
+
+See [printing and assembly notes](docs/printing.md). This remains a prototype: digital geometry, scoped clearances, and slicing are checked; physical strength and reliability remain unverified. [Validation details](docs/validation.md).
 
 ## Build and maintain
 
-Requires Python 3.12. From a fresh clone:
+Requires Python 3.12:
 
 ```sh
 python3.12 -m venv .venv
@@ -26,22 +38,12 @@ python3.12 -m venv .venv
 .venv/bin/python src/verify_motion.py
 ```
 
-Outputs go to ignored `build/`: full and replacement projects, individual STL/3MF parts, the assembled inspection GLB, and verification results.
+The build generates the complete project, all eleven individual print projects, individual STL/3MF meshes, an assembled inspection GLB, and verification results under `build/`.
 
-The model is **mesh-based CSG**, not a native CAD feature tree or STEP solid. `src/data/assembly_seed.3mf` preserves all eleven parts before the latest body changes. `src/model.py` applies those changes, with dimensions in `src/data/model_parameters.json`. Existing part geometry can be edited with the helpers in `src/geometry.py`. `src/build.py` controls print placement, while `src/print_package.py` writes the Bambu projects. See [maintenance](docs/maintenance.md) before updating the accepted geometry or print files.
+The editable model uses mesh-based CSG. `src/data/assembly_seed.3mf` preserves the underlying parts; `src/model.py` and its parameters define the latest body edits. Print placement is in `src/build.py`, and printer settings are in `src/data/`. [Maintenance instructions](docs/maintenance.md).
 
-## Repository contents
-
-| Path | Purpose |
-| --- | --- |
-| `print/` | Current checked full and replacement projects |
-| `src/` | Editable model operations, build, and verification code |
-| `src/data/` | Model seed, accepted geometry baseline, printer settings, package templates |
-| `validation/` | Current verification and slicer reports, artifact hashes |
-| `docs/` | Printing, maintenance, provenance, and limits of the checks |
-
-Temporary renders, G-code, virtual environments, failed experiments, and superseded model packages are omitted. Individual STL exports and the assembly preview can be regenerated.
+`print/` contains the current downloadable projects, `src/` the build sources, and `validation/` the checked results and hashes. Older revisions and temporary files are excluded.
 
 ## Provenance
 
-This model was developed from a user-supplied `Launcher.3mf`. Its original author and license were not recorded in the project. No license for that underlying design is asserted here; see [provenance](docs/provenance.md).
+Developed from a user-supplied `Launcher.3mf`. Its original author and license were not recorded; no license for the inherited design is asserted here. [Provenance](docs/provenance.md).

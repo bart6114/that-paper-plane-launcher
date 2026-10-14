@@ -16,8 +16,8 @@ The slider's reinforcement and other historical changes are already baked into t
 2. Run `src/build.py` and inspect `build/Assembly_Inspection.glb` plus the generated projects.
 3. Run `src/verify_motion.py`. Check whether its declared motion domains still cover the change. Add checks for newly affected regions; do not just relax a failing clearance threshold.
 4. Run `src/verify.py`. This checks exact equality with the accepted assembly. For an intentional geometry change, inspect the difference and replace `src/data/accepted_assembly.3mf` with the reviewed `build/checks/assembly_geometry.3mf`, then rerun it. This is an explicit baseline update, not evidence that the new shape works.
-5. Slice the exact generated full and replacement projects with the intended printer/material settings. Record the Bambu Studio version, warnings, support use, and time/material estimates. The CLI can use `--slice 0 --outputdir ...`; check `result.json`, not just the process exit status.
-6. Copy accepted projects to `print/`, and current reports to `validation/`. Refresh `validation/SHA256SUMS.json` with `scripts/hash_artifacts.py`. Commit model, source, exports, and evidence together.
+5. Slice the exact generated full and all individual-part projects with the intended printer/material settings. Record the Bambu Studio version, warnings, support use, and time/material estimates. The CLI can use `--slice 0 --outputdir ...`; check `result.json`, not just the process exit status.
+6. Copy the accepted complete project to `print/Launcher_P1S.3mf` and every project from `build/individual/` to `print/parts/`; copy current reports to `validation/`. Keep the individual set exactly aligned with the eleven assembly bodies, without omissions or stale files. Refresh `validation/SHA256SUMS.json` with `scripts/hash_artifacts.py`. Commit model, source, exports, and evidence together.
 
 The verification output is generated locally under `build/checks/`. Existing reports under `validation/` are snapshots of the committed revision, not live results.
 

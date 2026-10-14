@@ -6,12 +6,10 @@ Saved profile: P1S, 0.4 mm nozzle, 0.20 mm layers, six walls, six top and bottom
 | --- | --- | --- |
 | Full project, body plate | 173 min | 118.7 g |
 | Full project, small-parts plate | 83 min | 30.6 g |
-| Slider only | 28 min | 7.6 g |
-| Base only | 98 min | 64.9 g |
 
 Estimates come from Bambu Studio 02.08.02.61 and may change with filament selection or slicer version. The body plate needs no support in this saved layout. Small parts still use some support. No G-code is supplied.
 
-Use the complete project for a new set. The replacement projects are intended for the current matching assembly; the base-only replacement retains the existing cover and small parts.
+Use the complete project for a full set, or download any of the eleven individual parts linked in the README. Each individual project contains one component with its saved print orientation and settings. A complete launcher uses one of each part.
 
 Remove support and brim carefully. Keep the slider contact surfaces smooth and avoid enlarging the catch pocket during cleanup. Follow the saved placement: the slider stands upright and the body halves lie on their exterior faces.
 

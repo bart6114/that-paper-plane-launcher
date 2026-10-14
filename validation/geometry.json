@@ -11,7 +11,29 @@
   "project_counts": [
     11,
     1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
     1
+  ],
+  "individual_parts": [
+    "Base",
+    "Cover",
+    "Finger_Trigger",
+    "Front_Anchor",
+    "Front_Lock_Pin_Lower",
+    "Grip_Keeper_Pin",
+    "Grip_Key",
+    "Rear_Keeper_Pin",
+    "Rear_Key",
+    "Retrofit_Sear",
+    "Retrofit_Slider"
   ],
   "motion_checks": "Run verify_motion.py for scoped FCL motion checks.",
   "physical_strength_and_surface_friction": "unchecked"

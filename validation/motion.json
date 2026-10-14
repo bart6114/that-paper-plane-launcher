@@ -225,64 +225,6 @@
       "note": "Catch collar contact at axial endplay is intended."
     }
   ],
-  "packages": {
-    "Launcher_P1S.3mf": {
-      "mesh_count": 11,
-      "sha256": "92d666006e1ab6ad4c4f08eaf99380650780a32a51c0a31a357a1998472a7976"
-    },
-    "Slider_Only_P1S.3mf": {
-      "mesh_count": 1,
-      "sha256": "37ab764a2843c53ad73e5984efba4542afd4e064f5a22f3fe5ef5e914cd870d5"
-    },
-    "Base_Only_P1S.3mf": {
-      "mesh_count": 1,
-      "sha256": "e8f2907a6d61043c8a5cd318233225dd5c55ff473149fec568adb7596ab2de13"
-    },
-    "parts/Retrofit_Sear.3mf": {
-      "mesh_count": 1,
-      "sha256": "9d783f8c875523b2bbba7ae4d80bf1aba230737efdb6adfe2a308f7c41d7e7a9"
-    },
-    "parts/Front_Anchor.3mf": {
-      "mesh_count": 1,
-      "sha256": "a91cf1e98a793907bb5e372eacff46d19493f40a900e9221b618d125c7031b02"
-    },
-    "parts/Retrofit_Slider.3mf": {
-      "mesh_count": 1,
-      "sha256": "20f14773d46d15431dfa15a0a451898750f8268e3c4700b8b20d4ac5eb853327"
-    },
-    "parts/Cover.3mf": {
-      "mesh_count": 1,
-      "sha256": "66af9cdf924106a7d7a3c4655d9ab4ed5b18db4d0fa6cb6a3fee8452f5c7ad6b"
-    },
-    "parts/Finger_Trigger.3mf": {
-      "mesh_count": 1,
-      "sha256": "cb050b23575caefa01c94d7554aed0acfdb5ebf3916a72bf9e70de8dfc02d008"
-    },
-    "parts/Grip_Key.3mf": {
-      "mesh_count": 1,
-      "sha256": "081a3773a65dde6b525fc51b15267abd718598ea558a7ce0a11ae6ad11ea0f44"
-    },
-    "parts/Base.3mf": {
-      "mesh_count": 1,
-      "sha256": "265483f172e323ca4920bcf20a471fd4d5d5534b1619e0d1113b8dc8b5b76e5c"
-    },
-    "parts/Front_Lock_Pin_Lower.3mf": {
-      "mesh_count": 1,
-      "sha256": "9d98522a0ef80233cc61ec956c19eab27091331aad4a560ed268ddb73f296e1a"
-    },
-    "parts/Rear_Keeper_Pin.3mf": {
-      "mesh_count": 1,
-      "sha256": "03658a75f4cf3a88a61fc8ab33390df01434bb0d5f246f4194287e8def5d8339"
-    },
-    "parts/Rear_Key.3mf": {
-      "mesh_count": 1,
-      "sha256": "8c2b40a2d7bc2715ed2f5ade42077a3a134ed58640f0dfe1d9b90620c6ba7bba"
-    },
-    "parts/Grip_Keeper_Pin.3mf": {
-      "mesh_count": 1,
-      "sha256": "861b3bf1e9c8f44ecd00a76730d2adfc4c7a4f2ec821f00132e6e8743d99a252"
-    }
-  },
   "excluded_roundtrip_sliver_volume_mm3": 0.0018999834518518585,
   "moving_parts_vs_added_material": [
     {
@@ -323,5 +265,6 @@
     "printed_strength_and_fatigue": "unchecked",
     "physical_function": "unchecked",
     "full_grip_envelope": "unchecked"
-  }
+  },
+  "provenance": "Scoped motion checks from the unchanged accepted assembly. Individual project packaging checked separately in geometry.json and slice-individual.json."
 }

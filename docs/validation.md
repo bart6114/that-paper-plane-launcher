@@ -15,7 +15,7 @@ Evidence level: **E1 CAD verified, with scoped motion and slicer checks**. This 
 - Trigger -20 to 60° and catch -15 to 10° against new body material, sampled at 0.1°. Minimum gaps about 3.858 and 3.358 mm; positive margins after half-step radius bounds and 0.10 mm assumed surface error.
 - Exact final full project sliced successfully with Bambu Studio 02.08.02.61, P1S 0.4 mm, 0.20 mm layers. No slicer warnings. Both body halves require no support in the saved layout.
 
-The two replacement projects have identical mesh, placement, and settings XML to the previously sliced replacement projects; only descriptive title metadata differs. Their prior slicer reports are labelled accordingly. The final full project was resliced after repository packaging.
+All eleven individual print projects retain the component geometry and orientation from the full project, centered on separate plates. Each exact downloadable project was sliced successfully without warnings. The full project is unchanged from its checked slice. Individual slice results are recorded in `validation/slice-individual.json`.
 
 ## Not established
 
